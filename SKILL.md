@@ -100,6 +100,10 @@ Every lesson follows the attempt-first sequence (full detail and rationale in
 10. Corrected retry or new variation
 11. Exit ticket mixing current and previous lessons
 
+For Chinese `modules/**/*.md`, follow the Chinese `##` style in
+`references/course-blueprint.md` (concise role labels; sections may be added or
+dropped; topic names stay in `###`). Do not invent oral long H2 titles.
+
 Two writing rules are non-negotiable:
 
 - **First-use rule**: never use a term the target learner doesn't know without defining

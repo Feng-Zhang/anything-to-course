@@ -50,10 +50,27 @@ only with a stated reason (e.g., a 1-hour primer drops cumulative checkpoints).
    module; the answer file says which lessons to revisit if items failed. No grades.
 5. **Module map** — lessons and how they build on each other.
 
+### Chinese `##` style (modules; optional count)
+
+When writing Chinese course markdown under `modules/`, `##` headings follow a **style**,
+not a fixed set. Sections may be added or dropped per file.
+
+- About **2–6 Chinese characters**; name the *role* of the section, not a plot summary.
+- Topic-specific labels (e.g. a named framework) go in `###` or bold lead-ins, not `##`.
+- Prefer the recommended labels below when the section exists; invent others in the same
+  style (e.g. `安全注意`, `动手步骤`). Avoid oral long titles
+  (`先遇到这件事`, `跟着一个场面走`, `变式和离开前`).
+
+Recommended overview labels: `学习目标`, `学习动机`, `知识准备`, `课前自测`, `学习路线图`.
+
+Recommended lesson labels: `介绍`, `核心要点`, `完整示例`, `易错点与辨析`, `自我思考`,
+`补全式练习`, `独立练习`, `课后自测`.
+
 ## Lesson level — the canonical flow
 
 Every lesson follows this sequence. The order is the point: attempt precedes explanation,
-practice precedes answers, feedback precedes the retry.
+practice precedes answers, feedback precedes the retry. Chinese `##` labels (when used)
+should follow the style table above; they need not all appear in every lesson.
 
 1. **Hook: a real problem.** Open with a situation, question, or decision the lesson
    resolves — not with a definition.
